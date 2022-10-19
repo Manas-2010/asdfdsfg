@@ -1,0 +1,21 @@
+#body {
+    background-color: rgb(160, 156, 156);
+    border: 25px;
+    border-color: rgb(129, 0, 0);
+    box-shadow: 5px 5px 5px rgb(201, 197, 197);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#header {
+    font-family: 'Roboto', sans-serif;
+}
+
+#mobileNet {
+    margin-left: 30px;
+}
+
+#testImg {
+    height: 999px;
+    width: 999px;
+}

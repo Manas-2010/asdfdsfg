@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Case study between Google Lens and Mobile Net</title>
+</head>
+
+<body background="white">
+    <center>
+        <div class="container">
+            <div id="header">
+                <h1 class="text text-danger header">CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</h1>
+                <br>
+                <img src="GoogleLens.png">
+                <br>
+                <label class="btn btn-primary btn-lg">V/s</label>
+                <br>
+                <br>
+                <label class="btn btn-primary btn-lg">MobileNet</label>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="body" class="btn">
+                <label>Your Preview</label>
+                <br>
+                <div id="testImg1"><img src="Bottle.jpg"></div>
+                <label class="btn btn-primary btn-lg">Google Lens result: Water Bottle</label>
+                <label id="mobileNet" class="btn btn-primary btn-lg">MobileNet result:
+                    <span id="mobileNetResult1"></span></label>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="main.js" type="text/js"></script>
+
+</html>
